@@ -1,31 +1,16 @@
-
-// app.js
 // Se importan las funciones del módulo viajes.js
+
 import { registrarDestino, mostrarItinerario } from './viajes.js';
 
-/*// Iniciar la aplicación
-function iniciarApp() {
-    // Ejemplo de cómo registrar destinos
-    registrarDestino("Paris", "2024-06-15", "Avión");
-    registrarDestino("Londres", "2024-07-01", "Tren");
-
-    // Mostrar el itinerario de los viajes
-    mostrarItinerario();
-}
-
-// Ejecutar la aplicación
-iniciarApp();*/
-
-
 // Iniciar la aplicación
-const iniciarApp = () => {
+// function iniciarApp() {
+    const iniciarApp = () => {
     // Ejemplo de cómo registrar destinos
     registrarDestino("Paris", "2024-06-15", "Avión");
     registrarDestino("Paris", "2024-06-25", "Avión Clase Ejecutiva");
     registrarDestino("Londres", "2024-07-01", "Tren");
     registrarDestino("Londres", "2024-07-20", "Avión Clase Ejecutiva");
     registrarDestino("New York", "2024-08-10", "Autobús");
-    
 
     // Mostrar el itinerario de los viajes
     mostrarItinerario();
@@ -34,8 +19,10 @@ const iniciarApp = () => {
 // Ejecutar la aplicación
 iniciarApp();
 
-// Salida en Consola
-/*
+
+//Salida en consola
+
+/**
 Destino: Paris
 Fecha: 2024-06-15
 Transporte: Avión
@@ -61,4 +48,4 @@ Fecha: 2024-08-10
 Transporte: Autobús
 Costo: $650
 ---------------------------
-*/
+ */
