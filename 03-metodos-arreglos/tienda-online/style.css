@@ -1,7 +1,5 @@
-/* Diseño tipo grid para mostrar los productos. */
-/* Botones estilizados con íconos. */
 
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,17 +11,21 @@ body {
     padding: 2rem;
     color: #333;
 }
+/* Diseño tipo grid para mostrar los productos. */
 
 /* Contenedor principal */
 .container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
     margin-top: 2rem;
+    justify-items: left;
 }
 
 /* Estilo de cada producto */
 .producto {
+    width: 15rem;
+    height: 30rem;
     background-color: #fff;
     border-radius: 1rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -54,14 +56,14 @@ h1 {
 /* Estilo de los botones */
 button {
     padding: 0.5rem 1rem;
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 1.5rem;
     background-color: #fff;
     font-weight: bold;
     cursor: pointer;
     margin-top: 0.5rem;
     transition: background-color 0.3s ease;
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 button:hover {
